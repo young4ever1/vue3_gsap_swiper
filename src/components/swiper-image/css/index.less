@@ -1,0 +1,22 @@
+.swiper_img {
+  width: 100%;
+  height: 621px;
+  display: flex;
+  img {
+    width: inherit;
+    height: inherit;
+  }
+  .el-carousel {
+    width: inherit;
+    height: inherit;
+  }
+
+  /deep/.el-carousel__container {
+    width: 100% !important;
+    height: 100% !important;
+    position: static;
+  }
+  /deep/ ul {
+    display: none !important;
+  }
+}

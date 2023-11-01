@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  /* 文字禁止选择 */
+  user-select: none;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+@font-face {
+  font-family: "fzdb";
+  src: url("../assets/font/FZDBSJW.ttf");
+}
+@font-face {
+  font-family: "hyds";
+  src: url("../assets/font/HYDiShengYingXiongTiW.ttf");
+}
+@font-face {
+  font-family: "syht";
+  src: url("../assets/font/SourceHanSansCN-Medium.otf");
+}
+@font-face {
+  font-family: "kt";
+  src: url("../assets/font/STKaitiSC-Regular.ttf");
+}
+@font-face {
+  font-family: "ab";
+  src: url("../assets/font/AdobeKaitiStd-Regular.otf");
+}
+#app {
+  transform-origin: 0 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: 0.3s;
+  z-index: inherit;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: url("../assets/通用切图/背景图.png");
+  background-size: 100% 100%;
+}
